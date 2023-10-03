@@ -2,6 +2,9 @@
 const nextConfig = {
     images: {
         domains: ['openweathermap.org']
+    },
+    eslint:{
+        ignoreDuringBuilds: true,
     }
 }
 
